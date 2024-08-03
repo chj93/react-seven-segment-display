@@ -3,25 +3,17 @@
 A React and TypeScript based component that seven-segment display.
 숫자를 세그먼트 디스플레이 스타일로 렌더링하는 React 및 TypeScript 기반의 컴포넌트입니다.
 
-## 사용 방법
+## Used
 
-### 설치
+### Install
 ```bash
 npm install seven-segment-display
 ```
-또는
+or
 ```bash
 yarn add seven-segment-display
 ```
 
-### 예제
-```tsx
-import { ReactSevenSegmentDisplay } from "react-seven-segment-display";
-
-const App = () => <ReactSevenSegmentDisplay value="9" color="red" />;
-
-export default App;
-```
 ### Props
 
 | Name           | Decription                                                 | Type      | Default value |
@@ -30,3 +22,14 @@ export default App;
 | color          | Color of the display segments when turned on               | `string?` | `"red"`       |
 | bakgroundColor | Color of the background                                    | `string?` | ``            |
 
+### Example
+```tsx
+import { ReactSevenSegmentDisplay } from "react-seven-segment-display";
+
+const App = () => <ReactSevenSegmentDisplay value="9" color="red" />;
+
+export default App;
+```
+
+## License
+MIT License 
